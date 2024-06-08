@@ -1,0 +1,41 @@
+/* CSS for mobile devices */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #F0F8FF;
+      color: #000;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: #008B8B;
+    }
+    p {
+      color: #696969;
+    }
+  }
+  
+  /* CSS for tablets, laptops */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+      background-color: #F5F5DC;
+      color: #000;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: #8B4513;
+    }
+    p {
+      color: #A52A2A;
+    }
+  }
+  
+  /* CSS for desktops, large screens */
+  @media only screen and (min-width: 1025px) {
+    body {
+      background-color: #F5FFFA;
+      color: #000;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: #6B8E23;
+    }
+    p {
+      color: #556B2F;
+    }
+  }
